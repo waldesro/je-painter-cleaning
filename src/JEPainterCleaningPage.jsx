@@ -13,7 +13,7 @@ const BRAND = {
   tagline: "Paint • Remodel • Clean",
   phoneDisplay: "(314) 497-3079",
   phoneTel: "+13144973079",
-  email: "business@jepaintercleaning.com",
+  email: "adalh231@hotmail.com",
   serviceAreas: ["St. Louis County", "St. Charles", "O’Fallon", "Wentzville"],
 };
 
@@ -83,7 +83,7 @@ export default function JEPainterCleaningPage() {
           <div className="bg-white/80 backdrop-blur-sm shadow-xl border border-white/40 p-10 sm:p-14">
             <div className="max-w-4xl mx-auto text-center">
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-blue-900 leading-tight">
-                Professional Painting & Cleaning Services
+                Painting & Cleaning Services
               </h1>
 
               <p className="mt-6 text-lg sm:text-xl text-blue-800">
@@ -141,7 +141,7 @@ export default function JEPainterCleaningPage() {
 
       {/* Gallery */}
       <div className="py-20 px-4 max-w-6xl mx-auto bg-white/80 backdrop-blur-sm shadow-xl border border-white/40 p-6 sm:p-10">
-      <GalleryCarousel title="Check our work Gallery" autoPlay autoPlayInterval={5000} />
+      <GalleryCarousel title="Work Gallery" autoPlay autoPlayInterval={5000} />
       </div>
       <div className="pt-16 sm:pt-20" />
       {/* Footer */}
