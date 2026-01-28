@@ -23,18 +23,15 @@ export default function JEPainterCleaningPage() {
 
   return (
 
-    <div className="min-h-screen bg-white text-gray-900 relative overflow-x-hidden">
-      {/* Fixed background layer (no bg-fixed needed) */}
-      <div
-        aria-hidden="true"
-        className="
-          fixed inset-0 -z-10
-          bg-center bg-no-repeat bg-cover
-          bg-[url('/images/mobile-background@2x.jpg')]
-          sm:bg-[url('/images/background.png')]
-          transform-gpu will-change-transform
-        "
-      />
+    <div className="min-h-screen bg-white text-gray-900
+    relative
+    bg-center
+    bg-no-repeat
+    bg-cover
+    bg-fixed
+    sm:bg-[url('/images/background.png')]
+  "
+    >
       {/* Header */}
       <header className="fixed top-0 left-0 w-full z-50 bg-blue-50 shadow-md px-4 py-3">
         <div className="mx-auto max-w-6xl flex items-center justify-between flex-wrap sm:flex-nowrap gap-3 sm:gap-6">
@@ -142,7 +139,7 @@ export default function JEPainterCleaningPage() {
 
       {/* Gallery */}
       <div className="py-20 px-4 max-w-6xl mx-auto bg-white/80 backdrop-blur-sm shadow-xl border border-white/40 p-6 sm:p-10">
-        <GalleryCarousel title="Work Gallery" autoPlay autoPlayInterval={5000} />
+      <GalleryCarousel title="Work Gallery" autoPlay autoPlayInterval={5000} />
       </div>
       <div className="pt-16 sm:pt-20" />
       {/* Footer */}
